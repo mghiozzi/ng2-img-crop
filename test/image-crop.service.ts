@@ -14,7 +14,7 @@ describe('hello-world component', () => {
   });
 
   it('should say hello world', () => {
-    const fixture: ComponentFixture<ImageCropService> = TestBed.createComponent(ImageCropService);
+    var fixture: ComponentFixture<ImageCropService> = TestBed.createComponent(ImageCropService);
     fixture.detectChanges();
     expect(fixture.nativeElement.innerHTML.trim()).to.equal('Hello world from the ng2 img crop module!');
   });
