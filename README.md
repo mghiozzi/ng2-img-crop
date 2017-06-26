@@ -1,5 +1,5 @@
 # ng2 img crop
-[![GitHub version](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop@2x.png)](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop)
+[![GitHub version](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop.svg)](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop)
 [![GitHub issues](https://img.shields.io/github/issues/MarcelloGhiozzi/ng2-img-crop.svg)](https://github.com/MarcelloGhiozzi/ng2-img-crop/issues)
 [![GitHub stars](https://img.shields.io/github/stars/MarcelloGhiozzi/ng2-img-crop.svg)](https://github.com/MarcelloGhiozzi/ng2-img-crop/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcelloGhiozzi/ng2-img-crop/master/LICENSE)
