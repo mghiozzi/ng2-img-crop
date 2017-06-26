@@ -1,0 +1,27 @@
+<style>
+input {
+  width: 40px;
+  text-align: center;
+}
+
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6" >
+      <img [src]="image.src"/>
+    </div>
+    <div class="col-xs-6" >
+      <img [src]="cropped.src"/>
+    </div>
+  </div>
+  <div class="row" style="margin-top:30px">
+  	<div class="col-md-12" style="text-align:center">
+  	  <code> 
+        <button (click)="doCrop(startX.value,startY.value,width.value,height.value)">crop</button>
+        (sx = <input type="text" [(value)]="sx" #startX>, sy = <input type="text" [(value)]="sy" #startY>, w = <input type="text" [(value)]="w" #width>, h = 
+        <input type="text" [(value)]="h" #height>)
+      
+      </code>
+  	</div>
+  </div>
+</div>
