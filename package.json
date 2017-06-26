@@ -86,13 +86,5 @@
   },
   "files": [
     "dist"
-  ],
-  "config": {
-    "ghooks": {
-      "commit-msg": "validate-commit-msg"
-    },
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  ]
 }
