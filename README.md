@@ -1,13 +1,11 @@
 # ng2 img crop
-[![Build Status](https://travis-ci.org/MarcelloGhiozzi/ng2-img-crop.svg?branch=master)](https://travis-ci.org/MarcelloGhiozzi/ng2-img-crop)
-[![npm version](https://badge.fury.io/js/ng2-img-crop.svg)](http://badge.fury.io/js/ng2-img-crop)
-[![devDependency Status](https://david-dm.org/MarcelloGhiozzi/ng2-img-crop/dev-status.svg)](https://david-dm.org/MarcelloGhiozzi/ng2-img-crop#info=devDependencies)
+[![GitHub version](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop@2x.png)](https://badge.fury.io/gh/marcelloghiozzi%2Fng2-img-crop)
 [![GitHub issues](https://img.shields.io/github/issues/MarcelloGhiozzi/ng2-img-crop.svg)](https://github.com/MarcelloGhiozzi/ng2-img-crop/issues)
 [![GitHub stars](https://img.shields.io/github/stars/MarcelloGhiozzi/ng2-img-crop.svg)](https://github.com/MarcelloGhiozzi/ng2-img-crop/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcelloGhiozzi/ng2-img-crop/master/LICENSE)
 
 ## Demo
-https://MarcelloGhiozzi.github.io/ng2-img-crop/demo/
+[Try the demo!](https://MarcelloGhiozzi.github.io/ng2-img-crop/demo/)
 
 ## Table of contents
 
