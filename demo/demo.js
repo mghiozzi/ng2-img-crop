@@ -63,7 +63,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a61a2570c897e02c6b17"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "fecb898a0a8e878c6f4a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/
@@ -43098,18 +43098,20 @@
 	let Demo = class Demo {
 	    constructor(cropper) {
 	        this.cropper = cropper;
-	        this.sx = 0;
+	        this.sx = 100;
 	        this.sy = 0;
-	        this.w = 500;
-	        this.h = 500;
+	        this.w = 300;
+	        this.h = 300;
 	        console.log(cropper);
 	        this.image = new Image();
 	        this.cropped = new Image();
-	        this.image.onload = () => this.crop();
+	        this.image.onload = () => {
+	            this.crop(this.sx, this.sy, this.w, this.h);
+	        };
 	        this.image.src = 'kiddo.jpg';
 	    }
-	    crop() {
-	        this.cropper.crop(this.image, this.sx, this.sy, this.w, this.h)
+	    crop(sx, sy, w, h) {
+	        this.cropper.crop(this.image, sx, sy, w, h)
 	            .then(b64 => this.cropped.src = b64)
 	            .catch(err => console.log(err));
 	    }
