@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("@angular/core"), require("@angular/common"));
+		module.exports = factory(require("@angular/common"), require("@angular/core"));
 	else if(typeof define === 'function' && define.amd)
-		define(["@angular/core", "@angular/common"], factory);
+		define(["@angular/common", "@angular/core"], factory);
 	else if(typeof exports === 'object')
-		exports["ng2ImgCrop"] = factory(require("@angular/core"), require("@angular/common"));
+		exports["ng2ImgCrop"] = factory(require("@angular/common"), require("@angular/core"));
 	else
-		root["ng2ImgCrop"] = factory(root["ng"]["core"], root["ng"]["common"]);
+		root["ng2ImgCrop"] = factory(root["ng"]["common"], root["ng"]["core"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -59,7 +59,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 	}
 	__export(__webpack_require__(1));
-	// all components that will be codegen'd need to be exported for AOT to work
 	__export(__webpack_require__(4));
 
 
@@ -77,12 +76,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	const core_1 = __webpack_require__(2);
-	const common_1 = __webpack_require__(3);
+	const common_1 = __webpack_require__(2);
+	const core_1 = __webpack_require__(3);
 	const image_crop_service_1 = __webpack_require__(4);
-	let Ng2ImgCropModule = class Ng2ImgCropModule {
+	let ImageCropModule = class ImageCropModule {
 	};
-	Ng2ImgCropModule = __decorate([
+	ImageCropModule = __decorate([
 	    core_1.NgModule({
 	        imports: [common_1.CommonModule],
 	        providers: [
@@ -90,8 +89,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ]
 	    }), 
 	    __metadata('design:paramtypes', [])
-	], Ng2ImgCropModule);
-	exports.Ng2ImgCropModule = Ng2ImgCropModule;
+	], ImageCropModule);
+	exports.ImageCropModule = ImageCropModule;
 
 
 /***/ },
@@ -120,7 +119,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	const core_1 = __webpack_require__(2);
+	const core_1 = __webpack_require__(3);
 	let ImageCropService = class ImageCropService {
 	    crop(image, startx = 0, starty = 0, w, h) {
 	        return new Promise(function (resolve, reject) {

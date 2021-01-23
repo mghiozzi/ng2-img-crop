@@ -4,6 +4,10 @@ input {
   text-align: center;
 }
 
+img {
+  border: 1px solid black;
+}
+
 </style>
 <div class="container">
   <div class="row">
@@ -17,7 +21,7 @@ input {
   <div class="row" style="margin-top:30px">
   	<div class="col-md-12" style="text-align:center">
   	  <code> 
-        <button (click)="doCrop(startX.value,startY.value,width.value,height.value)">crop</button>
+        <button (click)="crop(startX.value,startY.value,width.value,height.value)">crop</button>
         (sx = <input type="text" [(value)]="sx" #startX>, sy = <input type="text" [(value)]="sy" #startY>, w = <input type="text" [(value)]="w" #width>, h = 
         <input type="text" [(value)]="h" #height>)
       
