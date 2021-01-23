@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcelloGhiozzi/ng2-img-crop/master/LICENSE)
 
 ## Demo
-[Try the demo!](https://MarcelloGhiozzi.github.io/ng2-img-crop/demo/index.html)
+[Try the demo!](https://mghiozzi.github.io/ng2-img-crop/demo/)
 
 ## Table of contents
 
